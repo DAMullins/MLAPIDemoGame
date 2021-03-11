@@ -9,7 +9,7 @@ public class lobbyLoad : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NetworkingManager.Singleton.GetComponent<loadScripts>().lobbyScreenLoad();
+        //NetworkingManager.Singleton.GetComponent<loadScripts>().lobbyScreenLoad();
         //Destroy(gameObject);
     }
 }

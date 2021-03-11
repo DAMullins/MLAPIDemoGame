@@ -18,7 +18,7 @@ public class PlayerControl : NetworkedBehaviour
     float pitch = 0;
     // Start is called before the first frame update
     void Start()
-    {
+    {        
         if (IsOwner)
         {
             cc = GetComponent<CharacterController>();

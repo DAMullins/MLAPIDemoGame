@@ -456,7 +456,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 7da40b2b91ed78c55c12437bcfa80f98
+      Hash: 90d987d28425344ca1d9661bbac2a5f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: lobbyScript
