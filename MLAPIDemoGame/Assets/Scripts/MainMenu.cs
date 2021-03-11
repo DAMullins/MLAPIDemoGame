@@ -9,7 +9,7 @@ public class MainMenu : NetworkedBehaviour
 {
  
     public void hostGameClicked()
-    {
+    {      
         NetworkingManager.Singleton.StartHost();
         InvokeServerRpc(switchToLobby);
     }

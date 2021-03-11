@@ -56,11 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\gameLoad.cs" />
+    <Compile Include="Assets\Scripts\NetworkMan.cs" />
+    <Compile Include="Assets\Scripts\loadScripts.cs" />
     <Compile Include="Assets\Scripts\delPlayer.cs" />
     <Compile Include="Assets\Scripts\lobbyScript.cs" />
-    <Compile Include="Assets\Scripts\NetworkMan.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\lobbyLoad.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\MLAPI\Lib\MLAPI.xml" />

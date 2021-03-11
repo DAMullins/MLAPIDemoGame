@@ -797,6 +797,7 @@ GameObject:
   - component: {fileID: 1283201264}
   - component: {fileID: 1283201263}
   - component: {fileID: 1283201266}
+  - component: {fileID: 1283201267}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -848,14 +849,17 @@ MonoBehaviour:
     RegisteredScenes:
     - homeScreen
     - lobbyScreen
+    - mainGame
     AllowRuntimeSceneChanges: 0
     NetworkedPrefabs:
-    - Prefab: {fileID: 1811386077947657230, guid: 8f0b8f0d1f9f3d64e869c790b9e971e2, type: 3}
+    - Prefab: {fileID: 2784377033014503817, guid: efb7f507872857b469c9814cdd55203e, type: 3}
       PlayerPrefab: 1
     - Prefab: {fileID: 8097163330642968745, guid: adc38e8a8583788419c9697f44a556c1, type: 3}
       PlayerPrefab: 0
+    - Prefab: {fileID: 4006506855762911839, guid: efd4c731bd455a14a99c393be913dd30, type: 3}
+      PlayerPrefab: 0
     PlayerPrefabHash:
-      Value: 3686251936734914050
+      Value: 15353259527196072907
     CreatePlayerPrefab: 1
     ReceiveTickrate: 64
     MaxReceiveEventsPerTickRate: 500
@@ -906,6 +910,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a6e3bbcb02e431479d68575dc54ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: 0
+--- !u!114 &1283201267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283201262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52db2f4b762ac60459e0889ae0f2cf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1603911713
